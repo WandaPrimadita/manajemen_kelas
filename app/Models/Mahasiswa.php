@@ -16,6 +16,6 @@ class Mahasiswa extends Model
         'nama_mahasiswa',
         'jenis_kelamin',
         'mahasiswa_jurusan',
-        'no_telp',
+        'no_hp',
     ];
 }
