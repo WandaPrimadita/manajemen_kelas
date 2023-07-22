@@ -16,6 +16,6 @@ class Dosen extends Model
         'nama_dosen',
         'dosen_jurusan', 
         'jenis_kelamin',
-        'no_telp',
+        'no_hp',
     ];
 }
