@@ -49,6 +49,7 @@
             </label>
             </div>
             <button class="w-100 btn bg-success text-white" type="submit">Login</button>
+            <div class="container px-4 px-lg-5 text-center">
             <a href="/register">Register</a>
         </form>
             </div>
