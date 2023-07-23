@@ -31,25 +31,26 @@
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
             <div class="col-6 pt-5">
-            <form>
+            <form action="/register" method="post">
+                @csrf
             <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
 
             <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input name="name" type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Nama</label>
+            </div>
+            <div class="form-floating">
+            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input name="password"  type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
             </div>
 
             <div class="checkbox mb-3">
-            <label>
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <a href="/register">Register</a>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">register</button>
         </form>
             </div>
         </main>
