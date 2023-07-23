@@ -35,7 +35,7 @@
             <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1">Manhasla</h1>
                 <h3 class="mb-5"><em>Selamat datang di manajemen mahasiswa dan kelas</em></h3>
-                <a class="btn btn-primary btn-xl" href="/login">Silahkan Login</a>
+                <a class="btn bg-success text-white btn-xl" href="/login">Silahkan Login</a>
             </div>
         </header>
         

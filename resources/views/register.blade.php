@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>Register</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@
             <div class="col-6 pt-5">
             <form action="/register" method="post">
                 @csrf
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Silahkan Register</h1>
 
             <div class="form-floating">
             <input name="name" type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -50,7 +50,7 @@
 
             <div class="checkbox mb-3">
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">register</button>
+            <button class="w-100 btn bg-success text-white" type="submit">register</button>
         </form>
             </div>
         </main>

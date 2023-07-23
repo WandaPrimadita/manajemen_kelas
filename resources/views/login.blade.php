@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>Login</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <img src="/assets/img/logo.png" width="50px">
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -32,7 +32,7 @@
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
             <div class="col-6 pt-5">
             <form>
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Silahkan Login</h1>
 
             <div class="form-floating">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -48,7 +48,7 @@
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <button class="w-100 btn bg-success text-white" type="submit">Login</button>
             <a href="/register">Register</a>
         </form>
             </div>
