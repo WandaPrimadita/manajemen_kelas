@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+@dd($dataMahasiswa)
+
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,25 +13,28 @@
 
     <title>Mahasiswa</title>
   </head>
-<body>
+  <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
   		<div class="container">
-            <a class="navbar-brand" href="#">Manhasla</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-            <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
-            <a class="nav-link" href="/dosen">Dash Dosen</a>
-            <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
-            <a class="nav-link" href="/ruangan">Dash Ruangan</a>
-            </div>
+        <a class="navbar-brand" href="#">Manhasla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        	</button>
+        	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
+          <a class="nav-link" href="/dosen">Dash Dosen</a>
+          <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
+          <a class="nav-link" href="/ruangan">Dash Ruangan</a>
         </div>
-        </div>
+      </div>
+    </div>
     </nav>
-    <section class="content-section bg-light" id="mahasiswa">
+  </body>
+
+<!--Manajemen Mahasiswa-->
+<section class="content-section bg-light" id="mahasiswa">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
@@ -44,20 +49,19 @@
                                 <th scope="col">Jenis Kelamin</th>
                                 <th scope="col">Jurusan</th>
                                 <th scope="col">No.Hp</th>
-                                <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <!-- <tbody>
                                 @foreach($dataMahasiswa as $mahasiswa)
                                 <tr>
+                                <th><th>
                                 <td>{{$mahasiswa->nim}}</td>
                                 <td>{{$mahasiswa->nama_mahasiswa}}</td>
                                 <td>{{$mahasiswa->jenis_kelamin}}</td>
                                 <td>{{$mahasiswa->mahasiswa_jurusan}}</td>
                                 <td>{{$mahasiswa->no_hp}}</td>
                                 </tr>
-                                @endforeach
-                            </tbody>
+                            </tbody> -->
                             
                             </table>
                         </p>
@@ -66,5 +70,3 @@
                 </div>
             </div>
 </section>
-</body>
-</html>
