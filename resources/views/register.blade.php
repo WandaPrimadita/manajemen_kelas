@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <img src="/assets/img/logo.png" width="50px">
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -30,7 +30,7 @@
             </div>
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
-            <div class="col-6 pt-5">
+            <div class="col-4 pt-5">
             <form action="/register" method="post">
                 @csrf
             <h1 class="h3 mb-3 text-center fw-normal pt-5">Silahkan Register</h1>
@@ -41,7 +41,7 @@
             </div>
             <div class="form-floating">
             <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+            <label for="floatingInput">Email</label>
             </div>
             <div class="form-floating">
             <input name="password"  type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -50,7 +50,7 @@
 
             <div class="checkbox mb-3">
             </div>
-            <button class="w-100 btn bg-success text-white" type="submit">register</button>
+            <button class="w-100 btn bg-success text-white" type="submit">Register</button>
         </form>
             </div>
         </main>

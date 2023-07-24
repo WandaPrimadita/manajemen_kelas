@@ -30,9 +30,9 @@
             </div>
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
-            <div class="col-6 pt-5">
+            <div class="col-4 pt-5">
             <form>
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Silahkan Login</h1>
+            <h1 class="h3 mb-3 text-center fw-normal pt-5 text-bold">Silahkan Login</h1>
 
             <div class="form-floating">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">

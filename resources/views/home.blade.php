@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Stylish Portfolio - Start Bootstrap Template</title>
+        <title>Manhasla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -24,9 +24,9 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><a href="#page-top">Selamat Datang</a></li>
                 <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">Mahasiswa</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Dosen</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Mata Kuliah</a></li>
+                <li class="sidebar-nav-item"><a href="/mahasiswa">Mahasiswa</a></li>
+                <li class="sidebar-nav-item"><a href="/dosen">Dosen</a></li>
+                <li class="sidebar-nav-item"><a href="/matakuliah">Mata Kuliah</a></li>
                 <li class="sidebar-nav-item"><a href="#contact">Ruangan</a></li>
             </ul>
         </nav>
@@ -38,42 +38,202 @@
                 <a class="btn bg-success text-white btn-xl" href="/login">Silahkan Login</a>
             </div>
         </header>
-        
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Favorited</strong></h4>
-                        <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+
+
+        <!--Manajemen Mahasiswa-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Manajemen Mahasiswa</h2>
+                        <p class="lead mb-2 mt-4">
+                        <a class="btn btn-dark btn-l" href="#services">Tambah Data Mahasiswa</a>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                <th scope="col">NIM</th>
+                                <th scope="col">Nama Mahasiswa</th>
+                                <th scope="col">Jenis Kelamin</th>
+                                <th scope="col">Jurusan</th>
+                                <th scope="col">No.Hp</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">1</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">2</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">3</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">4</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">5</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">6</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">7</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">8</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            </table>
                         </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                        
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2 class="mb-5">Manajemen Dosen</h2>
+                </div>
+                <p class="lead mb-2 mt-4">
+                        <a class="btn btn-dark btn-l" href="#services">Tambah Data Mahasiswa</a>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                <th scope="col">NIM</th>
+                                <th scope="col">Nama Mahasiswa</th>
+                                <th scope="col">Jenis Kelamin</th>
+                                <th scope="col">Jurusan</th>
+                                <th scope="col">No.Hp</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">1</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">2</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">3</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">4</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">5</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">6</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">7</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                <th scope="row">8</th>
+                                <td>Wanda Primadita Setiaji</td>
+                                <td>Perempuan</td>
+                                <td>Teknik Informatika</td>
+                                <td>089618568774</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </p>
+            </div>
+        </section>
+
+
         <!-- Callout-->
         <section class="callout">
             <div class="container px-4 px-lg-5 text-center">
@@ -85,6 +245,8 @@
                 <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
             </div>
         </section>
+
+
         <!-- Portfolio-->
         <section class="content-section" id="portfolio">
             <div class="container px-4 px-lg-5">
@@ -140,6 +302,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Call to Action-->
         <section class="content-section bg-primary text-white">
             <div class="container px-4 px-lg-5 text-center">
@@ -148,12 +312,16 @@
                 <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
             </div>
         </section>
+
+
         <!-- Map-->
         <div class="map" id="contact">
             <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
             <br />
             <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
         </div>
+
+
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
@@ -171,6 +339,8 @@
                 <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
             </div>
         </footer>
+
+        
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JS-->
