@@ -1,3 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
+  		<div class="container">
+        <a class="navbar-brand" href="#">Manhasla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        	</button>
+        	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
+          <a class="nav-link" href="/dosen">Dash Dosen</a>
+          <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
+          <a class="nav-link" href="/ruangan">Dash Ruangan</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,18 +50,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Selamat Datang</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="/mahasiswa">Mahasiswa</a></li>
-                <li class="sidebar-nav-item"><a href="/dosen">Dosen</a></li>
-                <li class="sidebar-nav-item"><a href="/matakuliah">Mata Kuliah</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Ruangan</a></li>
-            </ul>
-        </nav>
+       
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
@@ -38,314 +59,5 @@
                 <a class="btn bg-success text-white btn-xl" href="/login">Silahkan Login</a>
             </div>
         </header>
-
-
-        <!--Manajemen Mahasiswa-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>Manajemen Mahasiswa</h2>
-                        <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="#services">Tambah Data Mahasiswa</a>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                <th scope="col">NIM</th>
-                                <th scope="col">Nama Mahasiswa</th>
-                                <th scope="col">Jenis Kelamin</th>
-                                <th scope="col">Jurusan</th>
-                                <th scope="col">No.Hp</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th scope="row">1</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">7</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">8</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h2 class="mb-5">Manajemen Dosen</h2>
-                </div>
-                <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="#services">Tambah Data Mahasiswa</a>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                <th scope="col">NIM</th>
-                                <th scope="col">Nama Mahasiswa</th>
-                                <th scope="col">Jenis Kelamin</th>
-                                <th scope="col">Jurusan</th>
-                                <th scope="col">No.Hp</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th scope="row">1</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">7</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">8</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        </p>
-            </div>
-        </section>
-
-
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-            </div>
-        </section>
-
-
-        <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
-            </div>
-        </section>
-
-
-        <!-- Map-->
-        <div class="map" id="contact">
-            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            <br />
-            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
-        </div>
-
-
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
-            </div>
-        </footer>
-
-        
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
     </body>
 </html>

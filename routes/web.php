@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,6 +42,8 @@ Route::get('/matakuliah', function () {
 Route::get('/ruangan', function () {
     return view('ruangan');
 });
+
+Route::post('/register', [RegisterController::class, 'register']);
 
 Route::controller(MahasiswaController::class)->name('user.')->group(function () {
     Route::get('/view/home', 'getUser')->name('getUser');

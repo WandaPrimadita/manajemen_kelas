@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Produk</title>
+    <title>Mahasiswa</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
   		<div class="container">
         <a class="navbar-brand" href="#">Manhasla</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +20,11 @@
         	</button>
         	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-          <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="product.php">Produk</a>
-          <a class="nav-link" href="create.php">Tambah</a>
-          <a class="nav-link" href="cetak.php">Cetak</a>
+          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
+          <a class="nav-link" href="/dosen">Dash Dosen</a>
+          <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
+          <a class="nav-link" href="/ruangan">Dash Ruangan</a>
         </div>
       </div>
     </div>
