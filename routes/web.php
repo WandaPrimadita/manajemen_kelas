@@ -39,4 +39,4 @@ Route::get('/ruangan', [RuanganController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'register']);
 
-// 
+//
