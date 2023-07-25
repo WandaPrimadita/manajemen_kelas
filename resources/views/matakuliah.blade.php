@@ -49,76 +49,15 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($dataMataKuliah as $matakuliah)
                                 <tr>
-                                <th scope="row">1</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
+                                <td>{{$matakuliah->kode_matakuliah}}</td>
+                                <td>{{$matakuliah->nama_matakuliah}}</td>
+                                <td>{{$matakuliah->nama_dosen}}</td>
+                                <td>{{$matakuliah->sks}}</td>
+                                <td>{{$matakuliah->jurusan}}</td>
                                 </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">7</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">8</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
+                                @endforeach
                             </tbody>
                             </table>
                         </p>
