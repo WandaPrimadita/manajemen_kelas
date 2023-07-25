@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,27 +11,25 @@
 
     <title>Dosen</title>
   </head>
-  <body>
+<body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
   		<div class="container">
-        <a class="navbar-brand" href="#">Manhasla</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        	</button>
-        	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
-          <a class="nav-link" href="/dosen">Dash Dosen</a>
-          <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
-          <a class="nav-link" href="/ruangan">Dash Ruangan</a>
+            <a class="navbar-brand" href="#">Manhasla</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+            <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/mahasiswa">Dash Mahasiswa</a>
+            <a class="nav-link" href="/dosen">Dash Dosen</a>
+            <a class="nav-link" href="/matakuliah">Dash Matakuliah</a>
+            <a class="nav-link" href="/ruangan">Dash Ruangan</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
-
-<!--Manajemen Mahasiswa-->
-<section class="content-section bg-light" id="dosen">
+        </div>
+    </nav>
+    <section class="content-section bg-light" id="dosen">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
@@ -46,84 +44,27 @@
                                 <th scope="col">Jurusan</th>
                                 <th scope="col">Jenis Kelamin</th>
                                 <th scope="col">No.Hp</th>
+                                <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($dataDosen as $dosen)
                                 <tr>
-                                <th scope="row">1</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
+                                <td>{{$dosen->nidn}}</td>
+                                <td>{{$dosen->nama_dosen}}</td>
+                                <td>{{$dosen->dosen_jurusan}}</td>
+                                <td>{{$dosen->jenis_kelamin}}</td>
+                                <td>{{$dosen->no_hp}}</td>
                                 </tr>
+                                @endforeach
                             </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">7</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">8</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                <td>Teknik Informatika</td>
-                                <td>089618568774</td>
-                                </tr>
-                            </tbody>
+                            
                             </table>
                         </p>
                         
                     </div>
                 </div>
             </div>
-        </section>
+</section>
+</body>
+</html>
