@@ -47,68 +47,13 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($dataRuangan as $ruangan)
                                 <tr>
-                                <th scope="row">1</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
+                                <td>{{$ruangan->kode_ruangan}}</td>
+                                <td>{{$ruangan->ruang_jurusan}}</td>
+                                <td>{{$ruangan->kapasitas}}</td>
                                 </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">7</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                <th scope="row">8</th>
-                                <td>Wanda Primadita Setiaji</td>
-                                <td>Perempuan</td>
-                                
-                                </tr>
+                                @endforeach
                             </tbody>
                             </table>
                         </p>
