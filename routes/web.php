@@ -46,6 +46,7 @@ Route::get('/dosen/tambahFormDosen', function () {
     return view('tambahFormDosen');
 });
 Route::post('/dosen/tambah', [DosenController::class, 'create']);
+Route::delete('/dosen/hapus/{dosen}',[DosenController::class, 'delete']);
 
 
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);

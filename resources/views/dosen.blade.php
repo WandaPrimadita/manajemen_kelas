@@ -55,6 +55,14 @@
                                 <td>{{$dosen->dosen_jurusan}}</td>
                                 <td>{{$dosen->jenis_kelamin}}</td>
                                 <td>{{$dosen->no_hp}}</td>
+                                <td>
+                                    <form onsubmit="return confirm('Data Dosen Akan Dihapus?')" action="/dosen/hapus/{{$dosen->id}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger">
+                                        Hapus
+                                    </button>
+                                    </form></td>
                                 </tr>
                                 @endforeach
                             </tbody>

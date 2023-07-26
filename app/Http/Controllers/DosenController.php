@@ -25,5 +25,10 @@ class DosenController extends Controller
        // dd($data);
         $dosen->create($data);
         return redirect('/dosen');
-    } 
+    }
+    
+    public function delete(Dosen $dosen){
+        $dosen->delete();
+        return back();
+    }
 }
