@@ -57,6 +57,14 @@
                                 <td>{{$matakuliah->nama_dosen}}</td>
                                 <td>{{$matakuliah->sks}}</td>
                                 <td>{{$matakuliah->jurusan}}</td>
+                                <td>
+                                    <form onsubmit="return confirm('Data Matakuliah Akan Dihapus?')" action="/matakuliah/hapus/{{$matakuliah->id}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger">
+                                        Hapus
+                                    </button>
+                                    </form></td>
                                 </tr>
                                 
                                 @endforeach

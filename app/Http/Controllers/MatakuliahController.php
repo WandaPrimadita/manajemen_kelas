@@ -20,4 +20,9 @@ class MatakuliahController extends Controller
         $matakuliah->create($data);
         return redirect('/matakuliah');
     } 
+
+    public function delete(Matakuliah $matakuliah){
+        $matakuliah->delete();
+        return back();
+    }
 }
