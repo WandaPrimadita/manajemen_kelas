@@ -33,14 +33,17 @@ Route::get('/', function () {
 });
 
 Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
-
 Route::get('/mahasiswa/tambahFormMahasiswa', function () {
     return view('tambahFormMahasiswa');
 });
-
-Route::post('/konsumen/tambah', [MahasiswaController::class, 'create']);
+Route::post('/mahasiswa/tambah', [MahasiswaController::class, 'create']);
 
 Route::get('/dosen', [DosenController::class, 'index']);
+Route::get('/dosen/tambahFormDosen', function () {
+    return view('tambahFormDosen');
+});
+Route::post('/dosen/tambah', [DosenController::class, 'create']);
+
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/ruangan', [RuanganController::class, 'index']);
 

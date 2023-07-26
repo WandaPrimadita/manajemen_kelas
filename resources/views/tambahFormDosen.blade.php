@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Mahasiswa</title>
+    <title>Dosen</title>
   </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
@@ -32,25 +32,25 @@
 
     <section class="row justify-content-center" style="padding-top: 100px ; min-height:100vh">
             <div class="col-6">
-            <form action="/mahasiswa/tambah" method="post">
+            <form action="/dosen/tambah" method="post">
                 @csrf
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Mahasiswa</h1>
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Dosen</h1>
 
             <div class="form-floating">
-            <input name="nim" type="text" class="form-control" id="floatingInput" placeholder="Nim">
-            <label for="floatingInput">NIM</label>
+            <input name="nidn" type="text" class="form-control" id="floatingInput" placeholder="NIDN">
+            <label for="floatingInput">NIDN</label>
             </div>
             <div class="form-floating">
-            <input name="nama_mahasiswa" type="text" class="form-control" id="floatingInput" placeholder="Nama Mahasiswa">
-            <label for="floatingInput">Nama Mahasiswa</label>
+            <input name="nama_dosen" type="text" class="form-control" id="floatingInput" placeholder="Nama Dosen">
+            <label for="floatingInput">Nama Dosen</label>
+            </div>
+            <div class="form-floating">
+            <input name="dosen_jurusan" type="text" class="form-control" id="floatingInput" placeholder="Jurusan">
+            <label for="floatingInput">Jurusan</label>
             </div>
             <div class="form-floating">
             <input name="jenis_kelamin" type="text" class="form-control" id="floatingInput" placeholder="Jenis Kelamin">
             <label for="floatingInput">Jenis Kelamin</label>
-            </div>
-            <div class="form-floating">
-            <input name="mahasiswa_jurusan" type="text" class="form-control" id="floatingInput" placeholder="Jurusan">
-            <label for="floatingInput">Jurusan</label>
             </div>
             <div class="form-floating">
             <input name="no_hp" type="number" class="form-control" id="floatingInput" placeholder="No HP">
@@ -58,7 +58,7 @@
             </div>
             <div class="checkbox mb-3">
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Data Mahasiswa</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Data Dosen</button>
         </div>
         </form>
         </section>
