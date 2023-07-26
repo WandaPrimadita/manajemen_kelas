@@ -32,16 +32,17 @@
             </div>
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
-            <div class="col-4 pt-5">
-            <form>
-            <h1 class="h3 mb-3 text-center fw-normal pt-5 text-bold">Silahkan Login</h1>
+            <div class="col-6 pt-5">
+            <form action="/login" method="post">
+                @csrf
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
 
             <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
             </div>
 
@@ -50,8 +51,7 @@
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
             </div>
-            <button class="w-100 btn bg-success text-white" type="submit">Login</button>
-            <div class="container px-4 px-lg-5 text-center">
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
             <a href="/register">Register</a>
         </form>
             </div>

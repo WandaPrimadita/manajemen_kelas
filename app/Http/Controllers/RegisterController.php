@@ -16,10 +16,10 @@ class RegisterController extends Controller
         ]);
     }
 
-    public function mahasiswa (Request $request)
+    public function register (Request $request)
     {
         $validateData = $request->validate([
-            'nama' => 'required|max:255',
+            'name' => 'required|max:255',
             'email' => 'required|email:dns|unique:users',
             'password' => 'required|min:5|max:255'
         ]);

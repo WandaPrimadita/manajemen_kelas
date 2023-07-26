@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DosenController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\MatakuliahController;
 use App\Http\Controllers\RegisterController;
@@ -71,5 +72,7 @@ Route::get('/ruangan', [RuanganController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'register']);
 
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
 
 //
