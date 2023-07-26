@@ -37,7 +37,7 @@
                     <div class="col-lg-10">
                         <h2>Manajemen Ruangan</h2>
                         <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="#services">Tambah Data Ruangan</a>
+                        <a class="btn btn-dark btn-l" href="/ruangan/tambahFormRuangan">Tambah Data Ruangan</a>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>

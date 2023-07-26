@@ -50,6 +50,12 @@ Route::get('/matakuliah/tambahFormMatakuliah', function () {
 });
 Route::post('/matakuliah/tambah', [MatakuliahController::class, 'create']);
 
+Route::get('/ruangan', [RuanganController::class, 'index']);
+Route::get('/ruangan/tambahFormRuangan', function () {
+    return view('tambahFormRuangan');
+});
+Route::post('/ruangan/tambah', [RuanganController::class, 'create']);
+
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/ruangan', [RuanganController::class, 'index']);
 

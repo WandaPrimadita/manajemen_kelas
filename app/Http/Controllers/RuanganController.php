@@ -13,4 +13,11 @@ class RuanganController extends Controller
             'dataRuangan' => Ruangan::all()
         ]);
     } 
+
+    public function create (Ruangan $ruangan, Request $requestRuangan) {
+        $data = $requestRuangan -> all();
+        // dd($data);
+        $ruangan->create($data);
+        return redirect('/ruangan');
+    } 
 }
