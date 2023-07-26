@@ -13,4 +13,11 @@ class MatakuliahController extends Controller
             'dataMataKuliah' => Matakuliah::all()
         ]);
     }
+
+    public function create (Matakuliah $matakuliah, Request $requestMatakuliah) {
+        $data = $requestMatakuliah -> all();
+        //- dd($data);
+        $matakuliah->create($data);
+        return redirect('/dosen');
+    } 
 }

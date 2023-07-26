@@ -19,4 +19,11 @@ class DosenController extends Controller
             'dataDosen' => Dosen::all()
         ]);
     }
+
+    public function create (Dosen $dosen, Request $requestDosen) {
+        $data = $requestDosen -> all();
+       // dd($data);
+        $dosen->create($data);
+        return redirect('/dosen');
+    } 
 }
