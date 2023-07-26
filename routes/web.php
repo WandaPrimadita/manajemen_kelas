@@ -45,6 +45,12 @@ Route::get('/dosen/tambahFormDosen', function () {
 Route::post('/dosen/tambah', [DosenController::class, 'create']);
 
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
+Route::get('/matakuliah/tambahFormMatakuliah', function () {
+    return view('tambahFormMatakuliah');
+});
+Route::post('/matakuliah/tambah', [MatakuliahController::class, 'create']);
+
+Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/ruangan', [RuanganController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'register']);

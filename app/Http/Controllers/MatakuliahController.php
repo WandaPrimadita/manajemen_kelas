@@ -16,8 +16,8 @@ class MatakuliahController extends Controller
 
     public function create (Matakuliah $matakuliah, Request $requestMatakuliah) {
         $data = $requestMatakuliah -> all();
-        //- dd($data);
+        // dd($data);
         $matakuliah->create($data);
-        return redirect('/dosen');
+        return redirect('/matakuliah');
     } 
 }
