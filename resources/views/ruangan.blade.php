@@ -44,6 +44,7 @@
                                 <th scope="col">Kode Ruangan</th>
                                 <th scope="col">Ruang Jurusan</th>
                                 <th scope="col">Kapasitas</th>
+                                <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,6 +54,7 @@
                                 <td>{{$ruangan->ruang_jurusan}}</td>
                                 <td>{{$ruangan->kapasitas}}</td>
                                 </tr>
+                                
                                 @endforeach
                             </tbody>
                             </table>
@@ -62,3 +64,11 @@
                 </div>
             </div>
         </section>
+
+        <!-- Footer-->
+    <footer class="footer text-center">
+                <div class="container px-5 px-lg-5">
+                <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
+                    <p class="text-white small mb-0">Copyright &copy; Your Website 2023 (Manhasla)</p>
+                </div>
+            </footer>

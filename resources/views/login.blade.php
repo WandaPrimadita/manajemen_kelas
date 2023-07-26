@@ -23,8 +23,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/mahasiswa">Mahasiswa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/dosen">Dosen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/matakuliah">Matakuliah</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/ruangan">Ruangan</a></li>
                     </ul>
                 </div>
             </div>

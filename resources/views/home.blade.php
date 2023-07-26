@@ -61,3 +61,11 @@
         </header>
     </body>
 </html>
+
+<!-- Footer-->
+<footer class="footer text-center">
+                <div class="container px-5 px-lg-5">
+                <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
+                    <p class="text-white small mb-0">Copyright &copy; Your Website 2023 (Manhasla)</p>
+                </div>
+            </footer>

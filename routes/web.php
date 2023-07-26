@@ -6,6 +6,7 @@ use App\Http\Controllers\MatakuliahController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\RuanganController;
 use App\Models\Dosen;
+use App\Models\Mahasiswa;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,11 +33,18 @@ Route::get('/', function () {
 });
 
 Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
+
+Route::get('/mahasiswa/tambahFormMahasiswa', function () {
+    return view('tambahFormMahasiswa');
+});
+
+Route::post('/konsumen/tambah', [MahasiswaController::class, 'create']);
+
 Route::get('/dosen', [DosenController::class, 'index']);
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/ruangan', [RuanganController::class, 'index']);
 
-
 Route::post('/register', [RegisterController::class, 'register']);
+
 
 //

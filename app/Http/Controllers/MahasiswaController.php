@@ -19,4 +19,11 @@ class MahasiswaController extends Controller
             'dataMahasiswa' => Mahasiswa::all()
         ]);
     }
+
+    public function create (Mahasiswa $mahasiswa, Request $requestMahasiswa) {
+        $data = $requestMahasiswa -> all();
+        //- dd($data);
+        $mahasiswa->create($data);
+        return redirect('/mahasiswa');
+    } 
 }

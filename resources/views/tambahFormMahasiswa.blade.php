@@ -29,46 +29,41 @@
         </div>
         </div>
     </nav>
-    <section class="content-section bg-light" id="mahasiswa">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>Manajemen Mahasiswa</h2>
-                        <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="/mahasiswa/tambahFormMahasiswa">Tambah Data Mahasiswa</a>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                <th scope="col">NIM</th>
-                                <th scope="col">Nama Mahasiswa</th>
-                                <th scope="col">Jenis Kelamin</th>
-                                <th scope="col">Jurusan</th>
-                                <th scope="col">No.Hp</th>
-                                <th scope="col">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($dataMahasiswa as $mahasiswa)
-                                <tr>
-                                <td>{{$mahasiswa->nim}}</td>
-                                <td>{{$mahasiswa->nama_mahasiswa}}</td>
-                                <td>{{$mahasiswa->jenis_kelamin}}</td>
-                                <td>{{$mahasiswa->mahasiswa_jurusan}}</td>
-                                <td>{{$mahasiswa->no_hp}}</td>
-                                </tr>
-                    
-                                @endforeach
-                            </tbody>
-                            
-                            </table>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-</section>
 
-    <!-- Footer-->
+    <section class="row justify-content-center" style="padding-top: 100px ; min-height:100vh">
+            <div class="col-6">
+            <form action="/konsumen/tambah" method="post">
+                @csrf
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Konsumen</h1>
+
+            <div class="form-floating">
+            <input name="nim" type="text" class="form-control" id="floatingInput" placeholder="Nim">
+            <label for="floatingInput">NIM</label>
+            </div>
+            <div class="form-floating">
+            <input name="nama_mahasiswa" type="text" class="form-control" id="floatingInput" placeholder="Nama Mahasiswa">
+            <label for="floatingInput">Nama Mahasiswa</label>
+            </div>
+            <div class="form-floating">
+            <input name="jenis_kelamin" type="text" class="form-control" id="floatingInput" placeholder="Jenis Kelamin">
+            <label for="floatingInput">Jenis Kelamin</label>
+            </div>
+            <div class="form-floating">
+            <input name="mahasiswa_jurusan" type="text" class="form-control" id="floatingInput" placeholder="Jurusan">
+            <label for="floatingInput">Jurusan</label>
+            </div>
+            <div class="form-floating">
+            <input name="no_hp" type="number" class="form-control" id="floatingInput" placeholder="No HP">
+            <label for="floatingInput">No.Hp</label>
+            </div>
+            <div class="checkbox mb-3">
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Data Mahasiswa</button>
+        </div>
+        </form>
+        </section>
+
+            <!-- Footer-->
     <footer class="footer text-center">
                 <div class="container px-5 px-lg-5">
                 <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
