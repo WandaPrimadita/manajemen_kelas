@@ -26,4 +26,9 @@ class MahasiswaController extends Controller
         $mahasiswa->create($data);
         return redirect('/mahasiswa');
     } 
+
+    public function delete(Mahasiswa $mahasiswa){
+        $mahasiswa->delete();
+        return back();
+    }
 }

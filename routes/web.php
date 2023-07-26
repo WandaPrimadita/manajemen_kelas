@@ -37,6 +37,9 @@ Route::get('/mahasiswa/tambahFormMahasiswa', function () {
     return view('tambahFormMahasiswa');
 });
 Route::post('/mahasiswa/tambah', [MahasiswaController::class, 'create']);
+Route::delete('/mahasiswa/hapus/{mahasiswa}',[MahasiswaController::class, 'delete']);
+
+
 
 Route::get('/dosen', [DosenController::class, 'index']);
 Route::get('/dosen/tambahFormDosen', function () {
@@ -44,11 +47,13 @@ Route::get('/dosen/tambahFormDosen', function () {
 });
 Route::post('/dosen/tambah', [DosenController::class, 'create']);
 
+
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/matakuliah/tambahFormMatakuliah', function () {
     return view('tambahFormMatakuliah');
 });
 Route::post('/matakuliah/tambah', [MatakuliahController::class, 'create']);
+
 
 Route::get('/ruangan', [RuanganController::class, 'index']);
 Route::get('/ruangan/tambahFormRuangan', function () {
@@ -56,7 +61,9 @@ Route::get('/ruangan/tambahFormRuangan', function () {
 });
 Route::post('/ruangan/tambah', [RuanganController::class, 'create']);
 
+
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
+
 Route::get('/ruangan', [RuanganController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'register']);

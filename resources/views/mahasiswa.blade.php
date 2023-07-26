@@ -45,8 +45,10 @@
                                 <th scope="col">Jurusan</th>
                                 <th scope="col">No.Hp</th>
                                 <th scope="col">Aksi</th>
+                            
                                 </tr>
                             </thead>
+                    
                             <tbody>
                                 @foreach($dataMahasiswa as $mahasiswa)
                                 <tr>
@@ -55,6 +57,14 @@
                                 <td>{{$mahasiswa->jenis_kelamin}}</td>
                                 <td>{{$mahasiswa->mahasiswa_jurusan}}</td>
                                 <td>{{$mahasiswa->no_hp}}</td>
+                                <td>
+                                    <form onsubmit="return confirm('Data Mahasiswa Akan Dihapus?')" action="/mahasiswa/hapus/{{$mahasiswa->id}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger">
+                                        Hapus
+                                    </button>
+                                    </form></td>
                                 </tr>
                     
                                 @endforeach
