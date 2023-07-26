@@ -32,8 +32,8 @@
 
 <!--Manajemen Mahasiswa-->
 <section class="content-section bg-light" id="dosen">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="container px-4 px-lg-5 text-left">
+                <div class="row gx-4 gx-lg-5 justify-content-left">
                     <div class="col-lg-10">
                         <h2>Manajemen Ruangan</h2>
                         <p class="lead mb-2 mt-4">
