@@ -62,6 +62,7 @@ Route::get('/ruangan/tambahFormRuangan', function () {
     return view('tambahFormRuangan');
 });
 Route::post('/ruangan/tambah', [RuanganController::class, 'create']);
+Route::delete('/ruangan/hapus/{ruangan}',[RuanganController::class, 'delete']);
 
 
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);

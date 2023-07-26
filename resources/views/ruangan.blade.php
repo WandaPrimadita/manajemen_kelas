@@ -53,6 +53,14 @@
                                 <td>{{$ruangan->kode_ruangan}}</td>
                                 <td>{{$ruangan->ruang_jurusan}}</td>
                                 <td>{{$ruangan->kapasitas}}</td>
+                                <td>
+                                    <form onsubmit="return confirm('Data Ruangan Akan Dihapus?')" action="/ruangan/hapus/{{$ruangan->id}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger">
+                                        Hapus
+                                    </button>
+                                    </form></td>
                                 </tr>
                                 
                                 @endforeach

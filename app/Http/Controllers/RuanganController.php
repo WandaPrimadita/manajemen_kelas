@@ -20,4 +20,9 @@ class RuanganController extends Controller
         $ruangan->create($data);
         return redirect('/ruangan');
     } 
+
+    public function delete(Ruangan $ruangan){
+        $ruangan->delete();
+        return back();
+    }
 }
