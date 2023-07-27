@@ -35,7 +35,7 @@
                     <div class="col-lg-10">
                         <h2>Manajemen Mahasiswa</h2>
                         <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="/mahasiswa/tambahFormMahasiswa">Tambah Data Mahasiswa</a>
+                        <a class="btn btn-primary btn-l" href="/mahasiswa/tambahFormMahasiswa">Tambah Data Mahasiswa</a>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>

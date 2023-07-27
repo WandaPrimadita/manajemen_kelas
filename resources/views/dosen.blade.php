@@ -35,7 +35,7 @@
                     <div class="col-lg-10">
                         <h2>Manajemen Dosen</h2>
                         <p class="lead mb-2 mt-4">
-                        <a class="btn btn-dark btn-l" href="/dosen/tambahFormDosen">Tambah Data Dosen</a>
+                        <a class="btn btn-primary btn-l" href="/dosen/tambahFormDosen">Tambah Data Dosen</a>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>

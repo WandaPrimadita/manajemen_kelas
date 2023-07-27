@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
+    function index() {
+        return view('login');
+    }
+
     public function authenticate (Request $request) {
         $credentials = $request -> validate([
             'email' => 'required|email:dns',
@@ -14,7 +18,7 @@ class LoginController extends Controller
         ]);
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
-            return redirect()->intended('/');
+            return redirect('mahasiswa');
         }
         return back() ->with('loginError', 'Login Failed');
     }
