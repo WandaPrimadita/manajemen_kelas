@@ -79,10 +79,10 @@
 </section>
 
     <!-- Footer-->
-    <footer class="footer text-center">
-                <div class="container px-5 px-lg-5">
+    <footer class="py-5 bg-black">
+                <div class="container px-5">
                 <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
-                    <p class="text-white small mb-0">Copyright &copy; Your Website 2023 (Manhasla)</p>
+                <p class="m-0 text-center">Copyright &copy; Your Website 2023 (Manhasla)</p>
                 </div>
             </footer>
 
