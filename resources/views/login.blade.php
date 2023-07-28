@@ -52,7 +52,9 @@
             </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <a href="/register">Register</a>
+            <div>
+                <a href="{{ '/register' }}">Register</a>
+            </div>
         </form>
             </div>
         </main>
