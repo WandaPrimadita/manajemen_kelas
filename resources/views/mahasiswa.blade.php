@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success text-white">
   		<div class="container">
-            <a class="navbar-brand" href="#">Manhasla</a>
+            <a class="navbar-brand" href="/">Manhasla</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
                 </button>
@@ -79,7 +79,7 @@
 </section>
 
     <!-- Footer-->
-    <footer class="py-5 bg-black">
+    <footer class="text-center py-1">
                 <div class="container px-5">
                 <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
                 <p class="m-0 text-center">Copyright &copy; Your Website 2023 (Manhasla)</p>

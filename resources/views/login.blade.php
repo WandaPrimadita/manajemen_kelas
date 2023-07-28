@@ -33,7 +33,7 @@
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
             <div class="col-6 pt-5">
-            <form action="/login/user" method="post">
+            <form action="/login" method="post">
                 @csrf
             <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
 
@@ -52,7 +52,9 @@
             </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <a href="/register">Register</a>
+            <div>
+                <a href="{{ '/register' }}">Register</a>
+            </div>
         </form>
             </div>
         </main>

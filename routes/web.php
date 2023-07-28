@@ -27,7 +27,7 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('register');
-})->middleware('guest');
+});
 
 Route::get('/', function () {
     return view('home');
