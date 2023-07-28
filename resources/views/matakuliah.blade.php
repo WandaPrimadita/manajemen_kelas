@@ -66,12 +66,10 @@
                                     </button>
                                     </form></td>
                                 </tr>
-                                
                                 @endforeach
                             </tbody>
-                            </table>
+                          </table>
                         </p>
-                        
                     </div>
                 </div>
             </div>
