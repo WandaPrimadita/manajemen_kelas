@@ -33,36 +33,36 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/mahasiswa', [MahasiswaController::class, 'index'])->middleware('auth');
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 Route::get('/mahasiswa/tambahFormMahasiswa', function () {
     return view('tambahFormMahasiswa');
 });
-Route::post('/mahasiswa/tambah', [MahasiswaController::class, 'create'])->middleware('auth');
+Route::post('/mahasiswa/tambah', [MahasiswaController::class, 'create']);
 Route::delete('/mahasiswa/hapus/{mahasiswa}',[MahasiswaController::class, 'delete']);
 
 
 
-Route::get('/dosen', [DosenController::class, 'index'])->middleware('auth');
+Route::get('/dosen', [DosenController::class, 'index']);
 Route::get('/dosen/tambahFormDosen', function () {
     return view('tambahFormDosen');
 });
-Route::post('/dosen/tambah', [DosenController::class, 'create'])->middleware('auth');
+Route::post('/dosen/tambah', [DosenController::class, 'create']);
 Route::delete('/dosen/hapus/{dosen}',[DosenController::class, 'delete']);
 
 
-Route::get('/matakuliah', [MatakuliahController::class, 'index'])->middleware('auth');
+Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 Route::get('/matakuliah/tambahFormMatakuliah', function () {
     return view('tambahFormMatakuliah');
 });
-Route::post('/matakuliah/tambah', [MatakuliahController::class, 'create'])->middleware('auth');
+Route::post('/matakuliah/tambah', [MatakuliahController::class, 'create']);
 Route::delete('/matakuliah/hapus/{matakuliah}',[MatakuliahController::class, 'delete']);
 
 
-Route::get('/ruangan', [RuanganController::class, 'index'])->middleware('auth');
+Route::get('/ruangan', [RuanganController::class, 'index']);
 Route::get('/ruangan/tambahFormRuangan', function () {
     return view('tambahFormRuangan');
 });
-Route::post('/ruangan/tambah', [RuanganController::class, 'create'])->middleware('auth');
+Route::post('/ruangan/tambah', [RuanganController::class, 'create']);
 Route::delete('/ruangan/hapus/{ruangan}',[RuanganController::class, 'delete']);
 
 
