@@ -79,7 +79,7 @@
 </section>
 
     <!-- Footer-->
-    <footer class="py-5 bg-black">
+    <footer class="text-center py-1">
                 <div class="container px-5">
                 <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-success text-white">
                 <p class="m-0 text-center">Copyright &copy; Your Website 2023 (Manhasla)</p>
